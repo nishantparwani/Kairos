@@ -76,10 +76,10 @@ Details: [docs/TEST_RESULTS.md](docs/TEST_RESULTS.md) and the live acceptance ch
 
 | Member | Area | Files |
 |---|---|---|
-| N | Architecture, build, app core, README | Gradle files, `AndroidManifest.xml`, `res/`, `MainActivity.kt`, `KairosViewModel.kt`, `Repository.kt`, `docs/ARCHITECTURE.md`, `screenshots/` |
-| H | UI screens and matching | `Screens.kt`, `Models.kt`, `SkillMatcherTest.kt` |
-| Y | Backend and database | `functions/`, `firestore.rules`, `storage.rules`, `firebase.json`, `docs/FIREBASE_SETUP.md` |
-| A | Integration and testing | `FirebaseRepository.kt`, `KairosMessagingService.kt`, `LocationSearch.kt`, `docs/TESTING.md`, `docs/TEST_RESULTS.md` |
+| Nishant | Architecture, build, app core, README | Gradle files, `AndroidManifest.xml`, `res/`, `MainActivity.kt`, `KairosViewModel.kt`, `Repository.kt`, `docs/ARCHITECTURE.md`, `screenshots/` |
+| Harsh | UI screens and matching | `Screens.kt`, `Models.kt`, `SkillMatcherTest.kt` |
+| Yash | Backend and database | `functions/`, `firestore.rules`, `storage.rules`, `firebase.json`, `docs/FIREBASE_SETUP.md` |
+| Abhik | Integration and testing | `FirebaseRepository.kt`, `KairosMessagingService.kt`, `LocationSearch.kt`, `docs/TESTING.md`, `docs/TEST_RESULTS.md` |
 
 ## Limitations
 
