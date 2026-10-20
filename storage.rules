@@ -1,0 +1,11 @@
+rules_version = '2';
+service firebase.storage {
+ match /b/{bucket}/o {
+  function member() { return request.auth != null && request.auth.token.email_verified == true && firestore.exists(/databases/(default)/documents/profiles/$(request.auth.uid)); }
+  match /avatars/{uid}/profile {
+   allow read: if member();
+   allow create,update: if member() && request.auth.uid == uid && request.resource.size < 5 * 1024 * 1024 && request.resource.contentType.matches('image/.*');
+   allow delete: if member() && request.auth.uid == uid;
+  }
+ }
+}
