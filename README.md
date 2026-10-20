@@ -1,6 +1,21 @@
-# Kairos — Campus Skill Exchange
+<div align="center">
 
-Kairos is an Android app where students trade skills using time instead of money: teaching for 1 minute earns 1 time credit, and learning for 1 minute spends 1 credit.
+# ⏳ Kairos — Campus Skill Exchange
+
+### Teach what you know. Learn what you don't. Pay in time, not money.
+
+**Teach Python for an hour, earn an hour. Spend it learning guitar from the student down the hall.**
+Kairos is an Android app where one minute of teaching earns one time credit and one minute of learning spends one.
+
+![Kotlin](https://img.shields.io/badge/Kotlin-Jetpack%20Compose-7F52FF?logo=kotlin&logoColor=white)
+![Firebase](https://img.shields.io/badge/Firebase-Auth%20%C2%B7%20Firestore%20%C2%B7%20FCM%20%C2%B7%20Functions-FFCA28?logo=firebase&logoColor=black)
+![Razorpay](https://img.shields.io/badge/Razorpay-credit%20packs-0C2451?logo=razorpay&logoColor=white)
+![Android](https://img.shields.io/badge/Android-8.0%2B-3DDC84?logo=android&logoColor=white)
+[![Download APK](https://img.shields.io/badge/download-demo%20APK-success?logo=android)](https://github.com/nishantparwani/Kairos/releases/latest)
+
+<img src="screenshots/01_explore.png" width="230"> &nbsp; <img src="screenshots/02_matching.png" width="230"> &nbsp; <img src="screenshots/06_chat.png" width="230">
+
+</div>
 
 Built with Kotlin, Jetpack Compose (Material 3) and a Firebase backend (Auth, Firestore, Storage, Cloud Messaging, Cloud Functions), with Razorpay for credit-pack purchases.
 
